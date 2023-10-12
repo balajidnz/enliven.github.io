@@ -1,0 +1,54 @@
+/* styles.css */
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Create a header with a Netflix logo */
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+}
+
+/* Create a main content section with a video background */
+.main-content {
+    background-image: url('./Netflix-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Create a call-to-action button */
+.cta-button {
+    background-color: #e50914;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Add some padding to the button */
+.cta-button:hover {
+    background-color: #ff0000;
+}
